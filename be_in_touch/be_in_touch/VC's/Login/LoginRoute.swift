@@ -6,3 +6,20 @@
 //
 
 import Foundation
+import UIKit
+
+protocol LoginRoute {
+    func makeLogin() -> UIViewController
+}
+
+extension LoginRoute where Self: Router {
+    func makeLogin() -> UIViewController {
+            let coordinator = MainCoordinator(rootTransition: EmptyTransition())
+            let viewModel = LoginViewModel(coordinator: coordinator)
+            let viewController = LoginVC(viewModel: viewModel)
+            coordinator.root = viewController
+            return viewController
+        }
+}
+
+extension MainCoordinator : LoginRoute {}

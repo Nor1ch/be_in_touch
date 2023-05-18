@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class LoginViewModel {
+    
+//    typealias Routes =
+    private let coordinator: MainCoordinator
+    init(coordinator: MainCoordinator){
+        self.coordinator = coordinator
+    }
+}

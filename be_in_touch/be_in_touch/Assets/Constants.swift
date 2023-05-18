@@ -6,10 +6,21 @@
 //
 
 import Foundation
+import UIKit
 
 enum Constants {
     
     enum Color {
         
+    }
+    enum Font {
+        enum Login {
+            static var textField: UIFont? {
+                UIFont(name: "Montserrat-Medium", size: 11)
+            }
+            static var title: UIFont? {
+                UIFont(name: "Montserrat-SemiBold", size: 26)
+            }
+        }
     }
 }

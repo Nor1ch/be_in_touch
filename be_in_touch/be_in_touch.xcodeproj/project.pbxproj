@@ -29,6 +29,9 @@
 		050CDA702A1634390056BA39 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050CDA6F2A1634390056BA39 /* ModalTransition.swift */; };
 		050CDA722A1634490056BA39 /* EmptyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050CDA712A1634490056BA39 /* EmptyTransition.swift */; };
 		050CDA752A1636720056BA39 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050CDA742A1636720056BA39 /* Constants.swift */; };
+		050CDA772A163ECB0056BA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050CDA762A163ECB0056BA39 /* Images.xcassets */; };
+		050CDA792A1649E10056BA39 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050CDA782A1649E10056BA39 /* Montserrat-Medium.ttf */; };
+		050CDA7B2A1649FC0056BA39 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050CDA7A2A1649FC0056BA39 /* Montserrat-SemiBold.ttf */; };
 		25933C273244AF3202066057 /* Pods_be_in_touch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30C3DAE70FB01844E8D5D4F /* Pods_be_in_touch.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		050CDA6F2A1634390056BA39 /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
 		050CDA712A1634490056BA39 /* EmptyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTransition.swift; sourceTree = "<group>"; };
 		050CDA742A1636720056BA39 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		050CDA762A163ECB0056BA39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		050CDA782A1649E10056BA39 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		050CDA7A2A1649FC0056BA39 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		B30C3DAE70FB01844E8D5D4F /* Pods_be_in_touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_be_in_touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBFBA5DCC5A954D6A107078 /* Pods-be_in_touch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-be_in_touch.debug.xcconfig"; path = "Target Support Files/Pods-be_in_touch/Pods-be_in_touch.debug.xcconfig"; sourceTree = "<group>"; };
 		E4F5225BE642C3D4558E08CE /* Pods-be_in_touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-be_in_touch.release.xcconfig"; path = "Target Support Files/Pods-be_in_touch/Pods-be_in_touch.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 			children = (
 				050CDA732A16365F0056BA39 /* Fonts */,
 				050CDA642A16330B0056BA39 /* Colors.xcassets */,
+				050CDA762A163ECB0056BA39 /* Images.xcassets */,
 				050CDA742A1636720056BA39 /* Constants.swift */,
 			);
 			path = Assets;
@@ -180,6 +187,8 @@
 		050CDA732A16365F0056BA39 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				050CDA7A2A1649FC0056BA39 /* Montserrat-SemiBold.ttf */,
+				050CDA782A1649E10056BA39 /* Montserrat-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -269,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				050CDA422A04FEDB0056BA39 /* LaunchScreen.storyboard in Resources */,
+				050CDA772A163ECB0056BA39 /* Images.xcassets in Resources */,
 				050CDA652A16330B0056BA39 /* Colors.xcassets in Resources */,
+				050CDA7B2A1649FC0056BA39 /* Montserrat-SemiBold.ttf in Resources */,
 				050CDA4A2A162BA30056BA39 /* GoogleService-Info.plist in Resources */,
+				050CDA792A1649E10056BA39 /* Montserrat-Medium.ttf in Resources */,
 				050CDA3F2A04FEDB0056BA39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
